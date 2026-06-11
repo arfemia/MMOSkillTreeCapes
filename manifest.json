@@ -1,0 +1,15 @@
+{
+  "Group": "Ziggfreed",
+  "Name": "MMOSkillCapes",
+  "Version": "1.0.0",
+  "Description": "Skill mastery capes - cosmetic capes earned by reaching level 100 in a skill.",
+  "Authors": [
+    {
+      "Name": "ZiggFreed"
+    }
+  ],
+  "Website": "https://wintergreen-solutions.com",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {}
+}

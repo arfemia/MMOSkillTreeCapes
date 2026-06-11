@@ -1,0 +1,60 @@
+Cape_Skill_Mining.name = Mining Mastery Cape
+Cape_Skill_Mining.description = Awarded for reaching level 100 in Mining.
+
+Cape_Skill_Woodcutting.name = Woodcutting Mastery Cape
+Cape_Skill_Woodcutting.description = Awarded for reaching level 100 in Woodcutting.
+
+Cape_Skill_Excavation.name = Excavation Mastery Cape
+Cape_Skill_Excavation.description = Awarded for reaching level 100 in Excavation.
+
+Cape_Skill_Harvesting.name = Harvesting Mastery Cape
+Cape_Skill_Harvesting.description = Awarded for reaching level 100 in Harvesting.
+
+Cape_Skill_Swords.name = Swords Mastery Cape
+Cape_Skill_Swords.description = Awarded for reaching level 100 in Swords.
+
+Cape_Skill_Daggers.name = Daggers Mastery Cape
+Cape_Skill_Daggers.description = Awarded for reaching level 100 in Daggers.
+
+Cape_Skill_Polearms.name = Polearms Mastery Cape
+Cape_Skill_Polearms.description = Awarded for reaching level 100 in Polearms.
+
+Cape_Skill_Staves.name = Staves Mastery Cape
+Cape_Skill_Staves.description = Awarded for reaching level 100 in Staves.
+
+Cape_Skill_Axes.name = Axes Mastery Cape
+Cape_Skill_Axes.description = Awarded for reaching level 100 in Axes.
+
+Cape_Skill_Blunt.name = Blunt Mastery Cape
+Cape_Skill_Blunt.description = Awarded for reaching level 100 in Blunt.
+
+Cape_Skill_Archery.name = Archery Mastery Cape
+Cape_Skill_Archery.description = Awarded for reaching level 100 in Archery.
+
+Cape_Skill_Unarmed.name = Unarmed Mastery Cape
+Cape_Skill_Unarmed.description = Awarded for reaching level 100 in Unarmed.
+
+Cape_Skill_Defense.name = Block Mastery Cape
+Cape_Skill_Defense.description = Awarded for reaching level 100 in Block.
+
+Cape_Skill_Acrobatics.name = Acrobatics Mastery Cape
+Cape_Skill_Acrobatics.description = Awarded for reaching level 100 in Acrobatics.
+
+Cape_Skill_Crafting.name = Crafting Mastery Cape
+Cape_Skill_Crafting.description = Awarded for reaching level 100 in Crafting.
+
+Cape_Skill_Building.name = Building Mastery Cape
+Cape_Skill_Building.description = Awarded for reaching level 100 in Building.
+
+Cape_Skill_Fishing.name = Fishing Mastery Cape
+Cape_Skill_Fishing.description = Awarded for reaching level 100 in Fishing.
+
+Cape_Skill_Magic.name = Magic Mastery Cape
+Cape_Skill_Magic.description = Awarded for reaching level 100 in Magic.
+
+Cape_Skill_Artillery.name = Artillery Mastery Cape
+Cape_Skill_Artillery.description = Awarded for reaching level 100 in Artillery.
+
+Cape_Master.name = Master Cape
+Cape_Master.description = Awarded for reaching total level 1500. The ultimate mark of mastery.
+

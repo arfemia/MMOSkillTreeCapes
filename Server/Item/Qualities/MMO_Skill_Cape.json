@@ -1,0 +1,15 @@
+{
+  "QualityValue": 6,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipSkillCape.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipSkillCapeArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotSkillCape.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotSkillCape.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotSkillCape.png",
+  "TextColor": "#ffaa00",
+  "LocalizationKey": "general.qualities.MMO_Skill_Cape",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ParticleSystemId": "Drop_Legendary"
+  }
+}

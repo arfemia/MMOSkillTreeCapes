@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Cape_Master.name",
+    "Description": "items.Cape_Master.description"
+  },
+  "Parent": "Armor_Cloth_Wool_Head",
+  "Quality": "MMO_Skill_Cape",
+  "ItemLevel": 200,
+  "Icon": "Icons/ItemsGenerated/Cape_Master.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [15, 196, 4],
+    "Translation": [-3, 18]
+  },
+  "Model": "Items/Armor/Capes/Cape_Skill.blockymodel",
+  "Texture": "Items/Armor/Capes/Cape_Master.png",
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": ["Cape"],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.2,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.2,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 50,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "Amount": 50,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Charged": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Signature": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": ["Armor"],
+    "Family": ["Cloth_Wool"]
+  },
+  "MaxDurability": 9999,
+  "ItemSoundSetId": "ISS_Armor_Cloth"
+}

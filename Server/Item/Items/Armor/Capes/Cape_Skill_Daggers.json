@@ -1,0 +1,71 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Cape_Skill_Daggers.name",
+    "Description": "items.Cape_Skill_Daggers.description"
+  },
+  "Parent": "Armor_Cloth_Wool_Head",
+  "Quality": "MMO_Skill_Cape",
+  "ItemLevel": 100,
+  "Icon": "Icons/ItemsGenerated/Cape_Skill_Daggers.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      15,
+      196,
+      4
+    ],
+    "Translation": [
+      -3,
+      18
+    ]
+  },
+  "Model": "Items/Armor/Capes/Cape_Skill.blockymodel",
+  "Texture": "Items/Armor/Capes/Cape_Skill_Daggers.png",
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Cape"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.08,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.08,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 14,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Amount": 0.1,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Cloth_Wool"
+    ]
+  },
+  "MaxDurability": 9999,
+  "ItemSoundSetId": "ISS_Armor_Cloth"
+}

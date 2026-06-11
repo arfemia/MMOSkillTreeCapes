@@ -1,0 +1,60 @@
+Cape_Skill_Mining.name = Madencilik Ustalik Pelerini
+Cape_Skill_Mining.description = Madencilik becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Woodcutting.name = Odunculuk Ustalik Pelerini
+Cape_Skill_Woodcutting.description = Odunculuk becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Excavation.name = Kazi Ustalik Pelerini
+Cape_Skill_Excavation.description = Kazi becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Harvesting.name = Hasat Ustalik Pelerini
+Cape_Skill_Harvesting.description = Hasat becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Swords.name = Kiliclar Ustalik Pelerini
+Cape_Skill_Swords.description = Kiliclar becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Daggers.name = Hancerler Ustalik Pelerini
+Cape_Skill_Daggers.description = Hancerler becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Polearms.name = Mizraklar Ustalik Pelerini
+Cape_Skill_Polearms.description = Mizraklar becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Staves.name = Asalar Ustalik Pelerini
+Cape_Skill_Staves.description = Asalar becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Axes.name = Baltalar Ustalik Pelerini
+Cape_Skill_Axes.description = Baltalar becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Blunt.name = Kut Silahlar Ustalik Pelerini
+Cape_Skill_Blunt.description = Kut Silahlar becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Archery.name = Okculuk Ustalik Pelerini
+Cape_Skill_Archery.description = Okculuk becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Unarmed.name = Silahsiz Ustalik Pelerini
+Cape_Skill_Unarmed.description = Silahsiz becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Defense.name = Blok Ustalik Pelerini
+Cape_Skill_Defense.description = Blok becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Acrobatics.name = Akrobasi Ustalik Pelerini
+Cape_Skill_Acrobatics.description = Akrobasi becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Crafting.name = Uretim Ustalik Pelerini
+Cape_Skill_Crafting.description = Uretim becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Building.name = Insa Ustalik Pelerini
+Cape_Skill_Building.description = Insa becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Fishing.name = Balikcilik Ustalik Pelerini
+Cape_Skill_Fishing.description = Balikcilik becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Magic.name = Buyu Ustalik Pelerini
+Cape_Skill_Magic.description = Buyu becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Skill_Artillery.name = Topculuk Ustalik Pelerini
+Cape_Skill_Artillery.description = Topculuk becerisinde 100. seviyeye ulastigi icin verilir.
+
+Cape_Master.name = Buyuk Usta Pelerini
+Cape_Master.description = Toplam 1500 seviyeye ulastigi icin verilir. Ustaligin nihai simgesi.
+

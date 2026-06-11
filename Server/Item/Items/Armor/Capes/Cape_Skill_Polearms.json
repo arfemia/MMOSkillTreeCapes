@@ -1,0 +1,71 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Cape_Skill_Polearms.name",
+    "Description": "items.Cape_Skill_Polearms.description"
+  },
+  "Parent": "Armor_Cloth_Wool_Head",
+  "Quality": "MMO_Skill_Cape",
+  "ItemLevel": 100,
+  "Icon": "Icons/ItemsGenerated/Cape_Skill_Polearms.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      15,
+      196,
+      4
+    ],
+    "Translation": [
+      -3,
+      18
+    ]
+  },
+  "Model": "Items/Armor/Capes/Cape_Skill.blockymodel",
+  "Texture": "Items/Armor/Capes/Cape_Skill_Polearms.png",
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Cape"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.12,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.1,
+          "CalculationType": "Percent"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 22,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Charged": [
+        {
+          "Amount": 0.1,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Cloth_Wool"
+    ]
+  },
+  "MaxDurability": 9999,
+  "ItemSoundSetId": "ISS_Armor_Cloth"
+}
