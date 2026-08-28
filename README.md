@@ -41,4 +41,4 @@ The script is self-contained and cross-platform (`pwsh ./build.ps1` works on mac
 
 ## Sync rule
 
-This pack is the source-of-truth mirror of the cape assets in the parent `hyMMO` plugin (`src/main/resources/`). When cape art, item defs, the `MMO_Skill_Cape` quality, or cape translation strings change in either place, copy the change across both. The `manifest.json` here intentionally omits the plugin-only fields (`Main`, `Permissions`, `IncludesAssetPack`).
+This pack is the source-of-truth mirror of the cape assets in the parent MMO Skill Tree plugin (`src/main/resources/` in the monorepo). When cape art, item defs, the `MMO_Skill_Cape` quality, or cape translation strings change in either place, copy the change across both. The `manifest.json` here intentionally omits the plugin-only fields (`Main`, `Permissions`, `IncludesAssetPack`).
