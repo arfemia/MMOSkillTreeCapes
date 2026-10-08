@@ -1,22 +1,22 @@
-# MMO Skill Capes — Standalone Asset Pack
+# MMO Skill Capes - Standalone Asset Pack
 
-A pure Hytale asset pack that adds 20 cosmetic mastery capes — one per skill, plus a Master Cape for max total level. No Java code, no gameplay logic; the items render and exist on any Hytale server that loads this pack.
+A pure Hytale asset pack that adds 20 mastery capes: one per skill, plus a Master Cape for a total level of 1500. No Java code; the items render and exist on any Hytale server that loads this pack beside MMO Skill Tree.
 
 ## What's included
 
 - **20 cape items** (`Server/Item/Items/Armor/Capes/Cape_*.json`):
   - Cape_Master + 19 skill capes (Acrobatics, Archery, Artillery, Axes, Blunt, Building, Crafting, Daggers, Defense, Excavation, Fishing, Harvesting, Magic, Mining, Polearms, Staves, Swords, Unarmed, Woodcutting).
-- **Custom rarity** `MMO_Skill_Cape` (`Server/Item/Qualities/MMO_Skill_Cape.json`) — gold tooltip, custom slot/tooltip frames, "Drop_Legendary" particles.
+- **Custom rarity** `MMO_Skill_Cape` (`Server/Item/Qualities/MMO_Skill_Cape.json`): gold tooltip, custom slot/tooltip frames, "Drop_Legendary" particles.
 - **Localized names + descriptions** for all 9 supported locales (en-US, de-DE, es-ES, fr-FR, hu-HU, it-IT, pt-BR, ru-RU, tr-TR).
 - **Shared model** `Cape_Skill.blockymodel` plus per-cape PNG textures, inventory icons, and quality UI textures.
 
 ## Granting capes
 
-This pack only declares the items — it does not grant them. Three options:
+This pack only declares the items; it does not grant them. Three options:
 
-1. **Use the [MMO Skill Tree plugin](https://wintergreen-solutions.com)** — its `command-rewards.json` automatically gives the matching cape on reaching level 100 in each skill (and level 1500 total for Cape_Master). If you install the plugin, do **not** also install this pack — see "Coexistence" below.
-2. **Admin grant** — `give <player> Cape_Skill_Mining --quantity=1` from the console.
-3. **Custom logic** — wire your own plugin/script to issue the give command on whatever condition you like.
+1. **Use the [MMO Skill Tree plugin](https://wintergreen-solutions.com)**: its `command-rewards.json` automatically gives the matching cape on reaching level 100 in each skill (and level 1500 total for Cape_Master). If you install the plugin, do **not** also install this pack (see "Coexistence" below).
+2. **Admin grant**: `give <player> Cape_Skill_Mining --quantity=1` from the console.
+3. **Custom logic**: wire your own plugin/script to issue the give command on whatever condition you like.
 
 ## Coexistence with MMO Skill Tree
 
@@ -28,7 +28,7 @@ The [MMO Skill Tree plugin](https://wintergreen-solutions.com) bundles **the sam
 
 ## Known asset gaps
 
-Three cape JSONs ship without their texture PNG: `Cape_Skill_Fishing`, `Cape_Skill_Artillery`, `Cape_Skill_Magic`. The items work — they just render with Hytale's missing-texture fallback until art is provided.
+Three capes have no art of their own yet: `Cape_Skill_Fishing`, `Cape_Skill_Artillery` and `Cape_Skill_Magic` borrow the Blunt cape's texture and icon until theirs are drawn.
 
 ## Build (from source)
 
@@ -41,4 +41,4 @@ The script is self-contained and cross-platform (`pwsh ./build.ps1` works on mac
 
 ## Sync rule
 
-This pack is the source-of-truth mirror of the cape assets in the parent MMO Skill Tree plugin (`src/main/resources/` in the monorepo). When cape art, item defs, the `MMO_Skill_Cape` quality, or cape translation strings change in either place, copy the change across both. The `manifest.json` here intentionally omits the plugin-only fields (`Main`, `Permissions`, `IncludesAssetPack`).
+The cape assets live in the parent MMO Skill Tree plugin (`src/main/resources/` in the monorepo), and this pack mirrors them: when cape art, item defs, the `MMO_Skill_Cape` quality or cape translation strings change there, copy the change here, and never the other way round. The `manifest.json` here declares `IncludesAssetPack: true` and depends on MMO Skill Tree; it omits only the plugin-only fields (`Main`, `Permissions`).
